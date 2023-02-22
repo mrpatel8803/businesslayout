@@ -1,16 +1,40 @@
 /* <!-- orange part start -->
 <!-- orange part start --> */
+.main_image{
+        background-image: url(./image/main_image.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+ 
+/* .line{
+    width: 30%;
+    height: 10%;
+    background-color: white;
+} */
 
- .orange_box{
-    background-color: rgb(248, 137, 97);
+.orange_box{
+    background-color: #e75a18b7;
+    height: 200%;
+    position: relative;
 } 
 
 .trend{
-    border: 0.5em solid black;
+    border: 0.5em solid white;
     color: white;
-    background-color: rgb(248, 137, 97);
+    background-color:  #e75a18b7;
     writing-mode: vertical-rl;
     text-orientation: upright;
+    padding: 10px;
+    font-size: 2rem;
+    width: fit-content;
+
+}
+#trands{
+    padding: 4% ;
+    margin-left: 25%;
+    display: flex;
+    width: fit-content;
+    align-items: flex-start;
 }
 
 h1{
@@ -22,14 +46,84 @@ h1{
     color: black;
 }
 
-.address{
-    padding-top: 4%;
+ list{
+    
+    font-size: 20px;
+} 
+
+.company_contact{
+    padding-top: 5%;
+    padding-left: 3.5%;
+    color: white;
+}
+
+.location{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 .contact{
-    padding-top: 4%;
+    padding-top: 3%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 .email{
-    padding-top: 4%;
+    padding-top: 3%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.p_1{
+    font-size: 100px;
+    right: 0%;
+    padding-left: 88%;
+    padding-top: 20%;
+    color: white;
+}
+
+.blue_right{
+    width: 50%;
+    color: white;
+    margin-left: 52%;
+}
+
+.line_2{
+    margin-top: 15%;
+    margin-left: 40%;
+    width: 300px;
+    height: 1%;
+    background-color: white;
+}
+
+.bulb{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.book{
+    margin-top: 10%;
+    margin-left: -8%;
+}
+
+.setting{
+    margin-top: -22%;
+    margin-left: 80%;
+}
+
+.website{
+    padding-left: 45%;
+    margin-top: -5%;
+    font-size: 30px;
+    color: white;
+}
+
+.right_part{
+    background-color: #47e7dcac;
+    position: relative;
+    margin-top: -31%;
+    padding-top: 20%;
 }
